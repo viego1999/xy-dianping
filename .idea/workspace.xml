@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c26c71a7-2adf-40a8-968d-55070ce5845f" name="Changes" comment="" />
+    <list default="true" id="c26c71a7-2adf-40a8-968d-55070ce5845f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,9 @@
         <option value="AnnotationType" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -64,6 +70,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/miaosha&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -320,7 +327,10 @@
       <workItem from="1693575936048" duration="72000" />
       <workItem from="1694516043002" duration="2762000" />
       <workItem from="1694526369640" duration="3205000" />
-      <workItem from="1699080945349" duration="437000" />
+      <workItem from="1699080945349" duration="1073000" />
+      <workItem from="1699330018095" duration="46000" />
+      <workItem from="1711371738197" duration="258000" />
+      <workItem from="1711539109023" duration="190000" />
     </task>
     <servers />
   </component>
