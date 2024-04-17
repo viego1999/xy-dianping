@@ -16,7 +16,8 @@ public class RedisConfig {
         // 配置类
         Config config = new Config();
         // 添加redis地址，这里添加了单点的地址，也可以使用config.useClusterServers()添加集群地址
-        config.useSingleServer().setAddress("redis://192.168.247.130:6379").setPassword("dmlab@neu");
+//        config.useSingleServer().setAddress("redis://127.0.0.1:6379").setPassword("123456");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6379"); // Redis没有密码时不需要设置password参数
         // 创建客户端
         return Redisson.create(config);
     }
@@ -26,7 +27,7 @@ public class RedisConfig {
         // 配置类
         Config config = new Config();
         // 添加redis地址，这里添加了单点的地址，也可以使用config.useClusterServers()添加集群地址
-        config.useSingleServer().setAddress("redis://192.168.247.130:6379").setPassword("dmlab@neu");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6379");
         // 创建客户端
         return Redisson.create(config);
     }
@@ -36,7 +37,7 @@ public class RedisConfig {
         // 配置类
         Config config = new Config();
         // 添加redis地址，这里添加了单点的地址，也可以使用config.useClusterServers()添加集群地址
-        config.useSingleServer().setAddress("redis://192.168.247.130:6379").setPassword("dmlab@neu");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6379");
         // 创建客户端
         return Redisson.create(config);
     }

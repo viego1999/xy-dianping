@@ -1,7 +1,5 @@
 package com.xydp.service;
 
-import org.springframework.stereotype.Service;
-
 /**
  * Token 服务类接口
  *
@@ -10,7 +8,6 @@ import org.springframework.stereotype.Service;
  * @ClassName TokenService
  * @since 2023/6/3 17:32
  */
-@Service
 public interface ITokenService {
 
     /**

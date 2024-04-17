@@ -6,6 +6,7 @@ import com.xydp.utils.RedisConstants;
 import com.xydp.utils.UserHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,6 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @ClassName TokenServiceImpl
  * @since 2023/6/3 17:34
  */
+@Service
 public class ITokenServiceImpl implements ITokenService {
     @Autowired
     private StringRedisTemplate redisTemplate;
