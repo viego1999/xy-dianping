@@ -129,7 +129,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
         mqSender.sendSeckillMessage(voucherOrder, false);
 
         // 3.返回订单id
-        return Result.ok(voucherId);
+        return Result.ok(orderId);
     }
 
     @Deprecated
